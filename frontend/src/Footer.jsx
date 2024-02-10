@@ -13,8 +13,8 @@ const Footer = () => {
         <FaLinkedin className="text-xl" />
       </div>
       <h3 className="">
-        || Developed by <IoIosHeart className="inline text-red-600" /> Saroj
-        Kumar
+        || Developed by <IoIosHeart className="inline text-red-600" /> Neha
+        Kumari
       </h3>
     </div>
   );
