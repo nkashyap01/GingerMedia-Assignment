@@ -15,7 +15,7 @@ const Login = () => {
   const fetchUserData = async (email) => {
     try {
       const response = await axios.get(
-        "https://gingermediagroup.onrender.com/user/getUserDetails?email=" +
+        "https://gingermedia-wdfm.onrender.com/user/getUserDetails?email=" +
           email
       );
       setUserData(response.data);
@@ -27,7 +27,7 @@ const Login = () => {
   const handleLogin = async () => {
     try {
       const response = await axios.post(
-        "https://gingermediagroup.onrender.com/user/login",
+        "https://gingermedia-wdfm.onrender.com/user/login",
         {
           email,
           password,

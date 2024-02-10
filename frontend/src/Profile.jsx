@@ -20,7 +20,7 @@ const Profile = ({ data }) => {
   const handleUpdate = async () => {
     try {
       const response = await axios.patch(
-        "https://gingermediagroup.onrender.com/user/editUserDetails?email=" +
+        "https://gingermedia-wdfm.onrender.com/user/editUserDetails?email=" +
           data.email,
         {
           name,

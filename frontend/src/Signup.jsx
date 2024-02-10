@@ -18,7 +18,7 @@ const Signup = () => {
 
   const handleSignup = async () => {
     try {
-      const response = await axios.post("https://gingermediagroup.onrender.com/user/signup", {
+      const response = await axios.post("https://gingermedia-wdfm.onrender.com//user/signup", {
         name: name,
         email: email,
         password: password,
